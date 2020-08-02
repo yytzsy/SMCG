@@ -42,11 +42,11 @@ python fill_template.py
 ## Model Training and Testing
 ![](https://github.com/yytzsy/SCDM/blob/master/model.PNG)
 
-* For the MSRVTT dataset, go to the '**./msrvtt/src/**' folder, please train the model by:
+* For the MSRVTT dataset, please go to the '**./msrvtt/src/**' folder, and train the model by:
 ```
 python train.py --gpu xx
 ```
-for model inference and evaluation, run:
+* For model inference and evaluation, run:
 ```
 bash eval.sh 
 bash control.sh 
@@ -55,7 +55,7 @@ eval.sh： evaluate the generated exemplar-based captions with conventional capt
 control.sh: compare the generated exemplar-based captions with the provided exemplar captions.
 
 
-* For the ActivityNet Captions dataset, go to the '**./activitynet/src/**' folder, and train and test the model as on the MSRVTT dataset.
+* For the ActivityNet Captions dataset, please go to the '**./activitynet/src/**' folder, and train/test the model as on the MSRVTT dataset.
 
 ## Citation
 ```
