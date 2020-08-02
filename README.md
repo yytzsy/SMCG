@@ -46,26 +46,29 @@ python fill_template.py
 ## Model Training and Testing
 ![](https://github.com/yytzsy/SCDM/blob/master/model.PNG)
 
-* For the Charades-STA dataset, the proposed model and all its variant models are provided. For example, the proposed SCDM model implementation is in the '**./grounding/Charades-STA/src_SCDM**' folder, run:
+* For the MSRVTT dataset, go to the '**./msrvtt/src/**' folder, please train the model by:
 ```
-python run_charades_scdm.py --task train
+python train.py --gpu xx
 ```
-for model training, and run:
+for model inference and evaluation, run:
 ```
-python run_charades_scdm.py --task test
+bash eval.sh 
 ```
-for model testing. Other variant models are similar to train and test.
+```
+bash control.sh 
+```
+eval.sh： evaluate the generated exemplar-based captions with conventional captioning metrics. 
+control.sh: compare the generated exemplar-based captions with the provided exemplar captions.
 
-* For the TACoS and ActivityNet Captions dataset, we only provide the proposed SCDM model implementation in the '**./grounding/xxx/src_SCDM**' folder. The training and testing process are similar to the Charades-STA dataset.
-* Please train our provided models from scratch, and you can reproduce the results in the paper (not exactly the same, but almost).
+
+* For the ActivityNet Captions dataset, go to the '**./activitynet/src/**' folder, and train and test the model as on the MSRVTT dataset.
 
 ## Citation
 ```
-@inproceedings{yuan2019semantic,
-  title={Semantic Conditioned Dynamic Modulation for Temporal Sentence Grounding in Videos},
-  author={Yuan, Yitian and Ma, Lin and Wang, Jingwen and Liu, Wei and Zhu, Wenwu},
-  booktitle={Advances in Neural Information Processing Systems},
-  pages={534--544},
-  year={2019}
+@inproceedings{yuan2020Control,
+  title={Controllable Video Captioning with an Exemplar Sentence},
+  author={Yuan, Yitian and Ma, Lin and Wang, Jingwen and Zhu, Wenwu},
+  booktitle={the 28th ACM International Conference on Multimedia (MM ’20)},
+  year={2020}
 }
 ```
