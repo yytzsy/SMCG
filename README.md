@@ -31,15 +31,11 @@ For the ActivityNet Captionsd dataset, please download the following files into 
 * Go to the '**./msrvtt/process_msrvtt_data/**' folder, and run:
 ```
 python prepro_vocab_parse_pos.py
-```
-```
 python fill_template.py
 ```
 * Go to the '**./activitynet/process_activitynet_data/**' folder, and run:
 ```
 python prepro_anetcoco_vocab_pos_parse.py
-```
-```
 python fill_template.py
 ```
 
@@ -53,8 +49,6 @@ python train.py --gpu xx
 for model inference and evaluation, run:
 ```
 bash eval.sh 
-```
-```
 bash control.sh 
 ```
 eval.sh： evaluate the generated exemplar-based captions with conventional captioning metrics. 
