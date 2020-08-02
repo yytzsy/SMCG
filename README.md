@@ -15,7 +15,7 @@ We investigate a novel and challenging task, namely controllable video captionin
 
 ## Download Features and Preprocess Data
 
-For the MSRVTT dataset, please download the following files into the '**./msrvtt/msrvtt_data**' folder:
+For the MSRVTT dataset, please download the following files into the '**./msrvtt/msrvtt_data/**' folder:
 * MSRVTT caption info: [videodatainfo_2016.json](https://drive.google.com/file/d/1P-kfWOQoHzSxd8vNpogNGyx8Jc4TKj4E/view?usp=sharing),
 * MSRVTT captions and their sentence parse trees: [msrvtt_all_sentence_parse_dict.pkl](https://drive.google.com/file/d/1P-kfWOQoHzSxd8vNpogNGyx8Jc4TKj4E/view?usp=sharing),
 * Collected exemplar sentences and their parse trees: [coco_filter_parse_dict.pkl](https://drive.google.com/file/d/1P-kfWOQoHzSxd8vNpogNGyx8Jc4TKj4E/view?usp=sharing),
@@ -23,7 +23,7 @@ For the MSRVTT dataset, please download the following files into the '**./msrvtt
 * Glove word embeddings: [glove.840B.300d.zip](http://nlp.stanford.edu/data/glove.840B.300d.zip).
 
 
-For the ActivityNet Captionsd dataset, please download the following files into the '**./activitynet/activitynet_data**' folder:
+For the ActivityNet Captionsd dataset, please download the following files into the '**./activitynet/activitynet_data/**' folder:
 * ActivityNet caption info: [CAP.pkl](https://drive.google.com/file/d/1P-kfWOQoHzSxd8vNpogNGyx8Jc4TKj4E/view?usp=sharing),
 * ActivityNet captions and their sentence parse trees: [anet_parse_dict.pkl](https://drive.google.com/file/d/1P-kfWOQoHzSxd8vNpogNGyx8Jc4TKj4E/view?usp=sharing),
 * Collected exemplar sentences and their parse trees: [coco_filter_parse_dict.pkl](https://drive.google.com/file/d/1P-kfWOQoHzSxd8vNpogNGyx8Jc4TKj4E/view?usp=sharing),
