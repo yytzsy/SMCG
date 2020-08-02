@@ -7,6 +7,12 @@ Code for the paper "Controllable Video Captioning with an Exemplar Sentence"
 We investigate a novel and challenging task, namely controllable video captioning with an exemplar sentence. Formally, given a video and a syntactically valid exemplar sentence, the task aims to generate one caption which not only describes the semantic contents of the video, but also follows the syntactic form of the given exemplar sentence. In order to tackle such an exemplar-based video captioning task, we propose a novel Syntax Modulated Caption Generator (SMCG) incorporated in an encoder-decoder-reconstructor architecture.
 ![](https://github.com/yytzsy/SMCG/blob/master/task.jpg)
 
+## Dependency
+
+* python 2.7.2
+* torch 1.1.0
+* java openjdk version "10.0.2" 2018-07-17
+
 ## Download Features and Preprocess Data
 
 For the MSRVTT dataset, please download the following files into the '**./msrvtt/msrvtt_data**' folder:
