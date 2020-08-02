@@ -12,6 +12,7 @@ We investigate a novel and challenging task, namely controllable video captionin
 * python 2.7.2
 * torch 1.1.0
 * java openjdk version "10.0.2" 2018-07-17
+* StanfordCoreNLP
 
 ## Download Features and Preprocess Data
 
