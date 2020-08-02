@@ -51,7 +51,7 @@ python train.py --gpu xx
 bash eval.sh 
 bash control.sh 
 ```
-* Note: 'eval.sh' is used to evaluate the generated exemplar-based captions with conventional captioning metrics. 'control.sh' is used to compare the generated exemplar-based captions with the provided exemplar captions in the syntactic aspect, i.e., compute the edit distance between their parse trees.
+* Note: 'eval.sh' is used to evaluate the generated exemplar-based captions with conventional captioning metrics. 'control.sh' is used to compare the generated exemplar-based captions with the provided exemplar captions from the syntactic aspect, i.e., compute the edit distance between their parse trees.
 
 
 * For the ActivityNet Captions dataset, please go to the '**./activitynet/src/**' folder, and train/test the model as on the MSRVTT dataset.
