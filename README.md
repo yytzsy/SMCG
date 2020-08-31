@@ -17,17 +17,17 @@ We investigate a novel and challenging task, namely controllable video captionin
 ## Download Features and Preprocess Data
 
 For the MSRVTT dataset, please download the following files into the '**./msrvtt/msrvtt_data/**' folder:
-* MSRVTT caption info: [videodatainfo_2016.json](https://drive.google.com/file/d/1P-kfWOQoHzSxd8vNpogNGyx8Jc4TKj4E/view?usp=sharing),
-* MSRVTT captions and their sentence parse trees: [msrvtt_all_sentence_parse_dict.pkl](https://drive.google.com/file/d/1P-kfWOQoHzSxd8vNpogNGyx8Jc4TKj4E/view?usp=sharing),
-* Collected exemplar sentences and their parse trees: [coco_filter_parse_dict.pkl](https://drive.google.com/file/d/1P-kfWOQoHzSxd8vNpogNGyx8Jc4TKj4E/view?usp=sharing),
+* MSRVTT caption info: [videodatainfo_2016.json](https://drive.google.com/file/d/1bX3yFUS2QWTX-UAAE6an07D7lSZWIIWY/view?usp=sharing),
+* MSRVTT captions and their sentence parse trees: [msrvtt_all_sentence_parse_dict.pkl](https://drive.google.com/file/d/1mgKy6ADPDFvr5M204-iHNt3w636bB8-3/view?usp=sharing),
+* Collected exemplar sentences and their parse trees: [coco_filter_parse_dict.pkl](https://drive.google.com/file/d/1GEJ-6oniPmHCk119HP9ax03QIGWCoa8K/view?usp=sharing),
 * Video features: [msrvtt_incepRes_rgb_feats.hdf5](https://drive.google.com/file/d/1P-kfWOQoHzSxd8vNpogNGyx8Jc4TKj4E/view?usp=sharing),
 * Glove word embeddings: [glove.840B.300d.zip](http://nlp.stanford.edu/data/glove.840B.300d.zip).
 
 
 For the ActivityNet Captionsd dataset, please download the following files into the '**./activitynet/activitynet_data/**' folder:
-* ActivityNet caption info: [CAP.pkl](https://drive.google.com/file/d/1P-kfWOQoHzSxd8vNpogNGyx8Jc4TKj4E/view?usp=sharing),
-* ActivityNet captions and their sentence parse trees: [anet_parse_dict.pkl](https://drive.google.com/file/d/1P-kfWOQoHzSxd8vNpogNGyx8Jc4TKj4E/view?usp=sharing),
-* Collected exemplar sentences and their parse trees: [coco_filter_parse_dict.pkl](https://drive.google.com/file/d/1P-kfWOQoHzSxd8vNpogNGyx8Jc4TKj4E/view?usp=sharing),
+* ActivityNet caption info: [CAP.pkl](https://drive.google.com/file/d/1RRIuv1B84Uz_Q6iYO3GWDki2h_ehnTCw/view?usp=sharing),
+* ActivityNet captions and their sentence parse trees: [anet_parse_dict.pkl](https://drive.google.com/file/d/1s7fECX9mw6b2liklnpnqNQSEdaeqaMhy/view?usp=sharing),
+* Collected exemplar sentences and their parse trees: [coco_filter_parse_dict.pkl](https://drive.google.com/file/d/1BXJTzgirrgOopj-Clnri43Wwjc8-ZK2U/view?usp=sharing),
 * Video features: [anet_new_inception_resnet_feats.hdf5](https://drive.google.com/file/d/1P-kfWOQoHzSxd8vNpogNGyx8Jc4TKj4E/view?usp=sharing),
 * Glove word embeddings: [glove.840B.300d.zip](http://nlp.stanford.edu/data/glove.840B.300d.zip).
 
