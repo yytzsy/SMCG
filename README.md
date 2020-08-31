@@ -20,7 +20,7 @@ For the MSRVTT dataset, please download the following files into the '**./msrvtt
 * MSRVTT caption info: [videodatainfo_2016.json](https://drive.google.com/file/d/1bX3yFUS2QWTX-UAAE6an07D7lSZWIIWY/view?usp=sharing),
 * MSRVTT captions and their sentence parse trees: [msrvtt_all_sentence_parse_dict.pkl](https://drive.google.com/file/d/1mgKy6ADPDFvr5M204-iHNt3w636bB8-3/view?usp=sharing),
 * Collected exemplar sentences and their parse trees: [coco_filter_parse_dict.pkl](https://drive.google.com/file/d/1GEJ-6oniPmHCk119HP9ax03QIGWCoa8K/view?usp=sharing),
-* Video features: [msrvtt_incepRes_rgb_feats.hdf5](https://drive.google.com/file/d/1P-kfWOQoHzSxd8vNpogNGyx8Jc4TKj4E/view?usp=sharing),
+* Video features: [msrvtt_incepRes_rgb_feats.hdf5](https://drive.google.com/file/d/12Q795GTuPslcXFa8XmxpaoZNfLmN7rI4/view?usp=sharing),
 * Glove word embeddings: [glove.840B.300d.zip](http://nlp.stanford.edu/data/glove.840B.300d.zip).
 
 
