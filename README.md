@@ -28,7 +28,7 @@ For the ActivityNet Captionsd dataset, please download the following files into 
 * ActivityNet caption info: [CAP.pkl](https://drive.google.com/file/d/1RRIuv1B84Uz_Q6iYO3GWDki2h_ehnTCw/view?usp=sharing),
 * ActivityNet captions and their sentence parse trees: [anet_parse_dict.pkl](https://drive.google.com/file/d/1s7fECX9mw6b2liklnpnqNQSEdaeqaMhy/view?usp=sharing),
 * Collected exemplar sentences and their parse trees: [coco_filter_parse_dict.pkl](https://drive.google.com/file/d/1BXJTzgirrgOopj-Clnri43Wwjc8-ZK2U/view?usp=sharing),
-* Video features: [anet_new_inception_resnet_feats.hdf5](https://drive.google.com/file/d/1P-kfWOQoHzSxd8vNpogNGyx8Jc4TKj4E/view?usp=sharing),
+* Video features: [anet_new_inception_resnet_feats.hdf5](https://drive.google.com/file/d/1s4_Pm4bom8SqhHM_YzeWqNBRzJASAPZr/view?usp=sharing),
 * Glove word embeddings: [glove.840B.300d.zip](http://nlp.stanford.edu/data/glove.840B.300d.zip).
 
 
