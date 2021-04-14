@@ -17,17 +17,17 @@ We investigate a novel and challenging task, namely controllable video captionin
 ## Download Features and Preprocess Data
 
 For the MSRVTT dataset, please download the following files into the '**./msrvtt/msrvtt_data/**' folder:
-* MSRVTT caption info: [videodatainfo_2016.json](https://cloud.tsinghua.edu.cn/f/d66e3a7be624486f9d88/?dl=1),
-* MSRVTT captions and their sentence parse trees: [msrvtt_all_sentence_parse_dict.pkl](https://cloud.tsinghua.edu.cn/f/4d98078d6797423896ed/?dl=1),
-* Collected exemplar sentences and their parse trees: [coco_filter_parse_dict.pkl](https://cloud.tsinghua.edu.cn/f/78b79a08b3aa458d842d/?dl=1),
-* Video features: [msrvtt_incepRes_rgb_feats.hdf5](https://cloud.tsinghua.edu.cn/f/f448bd2b5eb142019058/?dl=1),
+* MSRVTT caption info: [videodatainfo_2016.json](https://cloud.tsinghua.edu.cn/f/3e86ebc904df49059b80/?dl=1),
+* MSRVTT captions and their sentence parse trees: [msrvtt_all_sentence_parse_dict.pkl](https://cloud.tsinghua.edu.cn/f/97188847cca8449fa2c6/?dl=1),
+* Collected exemplar sentences and their parse trees: [coco_filter_parse_dict.pkl](https://cloud.tsinghua.edu.cn/f/cbde36dc539e4fb68263/?dl=1),
+* Video features: [msrvtt_incepRes_rgb_feats.hdf5](https://cloud.tsinghua.edu.cn/f/17d23c1a09aa42af9293/?dl=1),
 * Glove word embeddings: [glove.840B.300d.zip](http://nlp.stanford.edu/data/glove.840B.300d.zip).
 
 
 For the ActivityNet Captionsd dataset, please download the following files into the '**./activitynet/activitynet_data/**' folder:
-* ActivityNet caption info: [CAP.pkl](https://cloud.tsinghua.edu.cn/f/d2cc55054b5c45108ce6/?dl=1),
-* ActivityNet captions and their sentence parse trees: [anet_parse_dict.pkl](https://cloud.tsinghua.edu.cn/f/75149c10ac1b4ab0993e/?dl=1),
-* Collected exemplar sentences and their parse trees: [coco_filter_parse_dict.pkl](https://cloud.tsinghua.edu.cn/f/66bf8142574b414599a3/?dl=1),
+* ActivityNet caption info: [CAP.pkl](https://cloud.tsinghua.edu.cn/f/53f046f86d924ebd927e/?dl=1),
+* ActivityNet captions and their sentence parse trees: [anet_parse_dict.pkl](https://cloud.tsinghua.edu.cn/f/a929dc028a2d43628b38/?dl=1),
+* Collected exemplar sentences and their parse trees: [coco_filter_parse_dict.pkl](https://cloud.tsinghua.edu.cn/f/fc81142a84ea43b08c0e/?dl=1),
 * Video features: [anet_new_inception_resnet_feats.hdf5](https://drive.google.com/file/d/1s4_Pm4bom8SqhHM_YzeWqNBRzJASAPZr/view?usp=sharing),
 * Glove word embeddings: [glove.840B.300d.zip](http://nlp.stanford.edu/data/glove.840B.300d.zip).
 
